@@ -13,7 +13,6 @@ using namespace std;
 
 string chooseWord(const char *fileName);
 string initializeGuessedWord(const string &secretWord);
-string initializeGuessedWord(const string &secretWord);
 void renderGame(string &guessedWord, const int &badGuessCount);
 char readGuess();
 bool contained(const string &secretWord, const char &guess);
